@@ -14,3 +14,20 @@ class User:
         self.last_name = last_name
         self.phone_number = number
         self.email = email
+
+        def save_user(self):
+
+        """
+        saves the new user account
+        """
+        
+         User.user_list.append(self)
+
+         @classmethod
+    def display_users(cls):
+
+        """
+        a method that crates and  returns the class users
+        """
+
+        return cls.users_list
