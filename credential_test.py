@@ -1,5 +1,6 @@
- import unittest
- from  credential import Credential
+import unittest
+
+from  credential import Credential
 
 class TestUser(unittest.TestCase):
     def setUp(self):
