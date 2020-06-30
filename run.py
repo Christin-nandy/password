@@ -34,5 +34,9 @@ def del_user(user):
     Function to delete a user
     '''
     user.delete_user() 
-    
-               
+
+def del_credential(credential):
+    '''
+    Function to delete a credential
+    '''
+    credential.delete_credential()               
