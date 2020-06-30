@@ -2,8 +2,9 @@ class User:
      """
     Class that generates new instances of users
     """
-    
-    user_list = [] # Empty User List
+       
+
+    user_list = [] # Empty user list
 
     def __init__(self,first_name,last_name,number,email):
 
@@ -14,13 +15,13 @@ class User:
          the users array
         """
         self.new_user.save_user_details()  # saving the new user
-        self.assertEqual(len(User.users_array), 1)
+        self.assertEqual(len(User.user_list), 1)
 
         test_save_user test case to test if the user object is saved into
-         the users array
+         the user list
         """
         self.new_user.save_user_details()  # saving the new user
-        self.assertEqual(len(User.users_array), 1)
+        self.assertEqual(len(User.user_list), 1)
 
       # docstring removed for simplicity
 
