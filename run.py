@@ -3,7 +3,7 @@
 from user import User
 from credential import Credential
 
- short_code : str
+import string
 
 def create_user(first_name,last_name,phone ,email):
     '''
